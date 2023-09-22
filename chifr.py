@@ -15,7 +15,7 @@ for leter in message:
     index = lang.find(leter)+step
     chipher.append(index)
 print(chipher)
-rizunt = ""
+result = ""
 for index in chipher:
-    rizunt += lang[index-step]
-print(rizunt)
+    result += lang[index-step]
+print(result)
